@@ -11,6 +11,8 @@
       shellAliases = {
         "bye" = "shutdown now";
       };
+
+      bashrcExtra = "[[ $(tty) == /dev/tty1 ]] && exec sway";
     };
   };
 }
