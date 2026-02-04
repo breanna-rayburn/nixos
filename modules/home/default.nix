@@ -2,7 +2,8 @@
 
 {
   imports = [ 
-    ./bash.nix 
+    ./bash.nix
+    ./sway.nix
     ./git.nix
   ];
 

@@ -54,6 +54,7 @@ inputs.nixpkgs.lib.nixosSystem {
 
       home = {
         bash.enable = true;
+	sway.enable = true;
 	git.enable = true;
       };
 
