@@ -8,7 +8,7 @@ up = "k";
 right = "l";
 
 term = "foot";
-menu = "bemenu-run - i"
+menu = "bemenu-run - i";
 
 in {
   options.home.sway.enable = lib.mkEnableOption "sway";
@@ -17,8 +17,7 @@ in {
       enable = true;
       config = {
         modifier = "${mod}";
-
-	keybinds = {
+        keybindings = {
 	  "${mod}+${left}" = "focus left";
 	  "${mod}+${down}" = "focus down";
 	  "${mod}+${up}" = "focus up";
@@ -35,6 +34,7 @@ in {
 	  "${mod}+f" = "fullscreen";
 
 	  "${mod}+Shift+e" = "exit";
+	  "${mod}+Shift+r" = "reload";
 
 	  "${mod}+1" = "workspace number 1";
 	  "${mod}+2" = "workspace number 2";
@@ -56,6 +56,11 @@ in {
 	  "${mod}+Shift+8" = "move container to workspace number 8";
 	  "${mod}+Shift+9" = "move container to workspace number 9"; 
 	};
+	bars = [{
+          position = "top";
+	  command = "swaybar";
+	  statusCommand = "while $HOME/.dotfiles/modules/home/sway/bar.sh; do sleep 1; done";
+	}];
       };
     };
   };

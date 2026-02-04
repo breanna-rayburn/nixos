@@ -3,7 +3,7 @@
 {
   imports = [ 
     ./bash.nix
-    ./sway.nix
+    ./sway
     ./git.nix
   ];
 
