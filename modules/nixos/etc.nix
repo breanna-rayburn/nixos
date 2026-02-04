@@ -18,5 +18,10 @@
       librewolf
       firefox
     ];
+
+    #TODO: maybe module
+    fonts.packages = with pkgs; [
+      ibm-plex
+    ];
   };
 }

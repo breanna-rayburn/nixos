@@ -56,6 +56,7 @@ inputs.nixpkgs.lib.nixosSystem {
         bash.enable = true;
 	sway.enable = true;
 	git.enable = true;
+	foot.enable = true;
       };
 
       # >,..,<
