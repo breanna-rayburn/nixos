@@ -56,6 +56,14 @@ in {
 	  "${mod}+Shift+8" = "move container to workspace number 8";
 	  "${mod}+Shift+9" = "move container to workspace number 9"; 
 	};
+	input = {
+          "type:touchpad" = {
+            dwt = "enabled";
+	    tap = "enabled";
+	    natural_scroll = "enabled";
+	    middle_emulatoin = "enabled";
+	  };
+	};
 	bars = [{
           position = "top";
 	  command = "swaybar";
