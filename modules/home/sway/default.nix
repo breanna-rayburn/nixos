@@ -61,7 +61,7 @@ in {
             dwt = "enabled";
 	    tap = "enabled";
 	    natural_scroll = "enabled";
-	    middle_emulatoin = "enabled";
+	    middle_emulation = "enabled";
 	  };
 	};
 	bars = [{
