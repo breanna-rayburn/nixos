@@ -55,6 +55,13 @@ in {
 	  "${mod}+Shift+7" = "move container to workspace number 7";
 	  "${mod}+Shift+8" = "move container to workspace number 8";
 	  "${mod}+Shift+9" = "move container to workspace number 9"; 
+
+	  "XF86AudioRaiseVolume" = "exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+";
+	  "XF86AudioLowerVolume" = "exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-";
+	  "XF86AudioMute" = "exec wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle";
+	  "XF86AudioMicMute" = "exec wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle";
+	  "XF86MonBrightnessUp" = "exec brightnessctl s 10%+";
+	  "XF86MonBrightnessDown" = "exec brightnessctl s 10%-";
 	};
 	input = {
           "type:touchpad" = {
