@@ -51,6 +51,7 @@ inputs.nixpkgs.lib.nixosSystem {
       };
 
       etc.enable = true;
+      bluetooth.enable = true;
 
       home = {
         bash.enable = true;
