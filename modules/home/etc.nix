@@ -1,16 +1,18 @@
 { config, lib, pkgs, ... }:
 
 {
-  options.etc.enable = lib.mkEnableOption "etc";
-  config = lib.mkIf config.etc.enable {
-    home.packages = with pkgs; [
-      neovim
+  options.home.etc.enable = lib.mkEnableOption "etc";
+  config = lib.mkIf config.home.etc.enable {
+		home-manager.users."breanna" = {
+			home.packages = with pkgs; [
+				neovim
 
-			librewolf
-      firefox
+				librewolf
+				firefox
 
-			discord
-			krita
-    ];
- };
+				#discord
+				krita
+			];
+		};
+  };
 }
