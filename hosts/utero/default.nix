@@ -6,7 +6,6 @@ inputs.nixpkgs.lib.nixosSystem {
   modules = [ 
     ./hardware.nix
     inputs.home-manager.nixosModules.default
-    inputs.nixvim.homeModules.nixvim
     ../../modules/nixos
     ../../modules/home
     {
