@@ -3,8 +3,9 @@
 {
   imports = [ 
     ./bash.nix
-    ./sway
+    ./nixvim
     ./git.nix
+    ./sway
     ./foot.nix
   ];
 
