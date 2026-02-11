@@ -25,13 +25,13 @@ inputs.nixpkgs.lib.nixosSystem {
 
       services.pipewire = {
         enable = true;
-	pulse.enable = true;
+				pulse.enable = true;
       };
       
       # TODO: maybe make module or place in hardware.nix?
       hardware.graphics = {
         enable = true;
-	enable32Bit = true;
+				enable32Bit = true;
       };
       
       # TODO: is needed?
@@ -40,25 +40,27 @@ inputs.nixpkgs.lib.nixosSystem {
       # TODO: module and set hash passwd 
       users.users.breanna = {
         isNormalUser = true;
-	description = "Breanna";
-	extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
-	home = "/home/breanna";
+				description = "Breanna";
+				extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
+				home = "/home/breanna";
       };
 
       programs.sway = {
         enable = true;
-	wrapperFeatures.gtk = true;
+				wrapperFeatures.gtk = true;
       };
 
       etc.enable = true;
+			tlp.enable = true;
       bluetooth.enable = true;
 
       home = {
         bash.enable = true;
-	nixvim.enable = true;
-	git.enable = true;
-	sway.enable = true;
-	foot.enable = true;
+				nixvim.enable = true;
+				git.enable = true;
+				sway.enable = true;
+				foot.enable = true;
+				etc.enable = true;
       };
 
       # >,..,<

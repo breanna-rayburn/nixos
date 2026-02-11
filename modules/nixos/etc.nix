@@ -10,14 +10,12 @@
       slurp
       wl-clipboard
 
-      neovim
+      vim
       wget
       git
 
       fastfetch
-      librewolf
-      firefox
-    ];
+		];
 
     #TODO: maybe module
     fonts.packages = with pkgs; [

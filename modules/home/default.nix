@@ -6,12 +6,13 @@
   ];
 
   imports = [ 
-    ./bash.nix
-    ./nixvim
+		./bash.nix
     ./git.nix
     ./sway
     ./foot.nix
+		./etc.nix
+    ./nixvim
   ];
-  
-    home-manager.users."breanna".home.stateVersion = "25.11";
+
+	home-manager.users."breanna".home.stateVersion = "25.11";
 }

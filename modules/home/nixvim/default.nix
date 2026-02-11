@@ -8,7 +8,11 @@
 
       opts = {
         number = true;
-	relativenumber = true;
+				relativenumber = true;
+	
+				tabstop = 2;
+				softtabstop = 2;
+				shiftwidth = 2;
       };
     };
   };
