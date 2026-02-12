@@ -5,9 +5,8 @@
 
   keymaps = [
     {
+      action = "<cmd>Telescope find_files<CR>";
       key = "<leader>f";
-      action = "find_files";
-      mode = "n";
     }
   ];
 }
