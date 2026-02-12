@@ -8,11 +8,11 @@
       settings = {
         user = {
           name = "breanna";
-	  email = "52141078+breanna-rayburn@users.noreply.github.com";
-	};
-	init = {
+    email = "52141078+breanna-rayburn@users.noreply.github.com";
+  };
+  init = {
           defaultBranch = "main";
-	};
+  };
       };
     };
   };

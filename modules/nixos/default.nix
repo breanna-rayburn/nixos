@@ -3,7 +3,7 @@
 {
   imports = [
     ./etc.nix
-		./tlp.nix
+    ./tlp.nix
     ./bluetooth.nix
   ];
 }

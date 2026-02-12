@@ -15,7 +15,7 @@
       git
 
       fastfetch
-		];
+    ];
 
     #TODO: maybe module
     fonts.packages = with pkgs; [

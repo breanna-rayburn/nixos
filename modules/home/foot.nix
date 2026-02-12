@@ -8,7 +8,7 @@
       settings = {
         main = {
           font = "IBM Plex Mono:size=12";
-	};
+  };
       };
     };
   };
