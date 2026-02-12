@@ -1,0 +1,9 @@
+{ ... }:
+
+{
+  plugins = {
+    lspconfig = {
+      enable = true;
+    };
+  };
+}
