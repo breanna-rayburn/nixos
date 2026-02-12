@@ -9,7 +9,8 @@
     softtabstop = 2;
     shiftwidth = 2;
     expandtab = true;
-    
+    wrap = false;
+
     background = "dark";
     termguicolors = true;
   };
