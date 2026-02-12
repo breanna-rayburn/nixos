@@ -56,11 +56,11 @@ inputs.nixpkgs.lib.nixosSystem {
 
       home = {
         bash.enable = true;
+				nvim.enable = true;
 				git.enable = true;
 				sway.enable = true;
 				foot.enable = true;
 				etc.enable = true;
-				nixvim.enable = true;
       };
 
       # >,..,<

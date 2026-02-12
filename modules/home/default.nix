@@ -7,11 +7,11 @@
 
   imports = [ 
 		./bash.nix
-    ./git.nix
+		./nvim
+		./git.nix
     ./sway
     ./foot.nix
 		./etc.nix
-    ./nixvim
   ];
 
 	home-manager.users."breanna".home.stateVersion = "25.11";
