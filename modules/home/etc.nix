@@ -9,6 +9,7 @@
         firefox
 
         #discord
+        zathura
         krita
       ];
     };
