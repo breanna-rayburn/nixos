@@ -74,7 +74,7 @@ in {
         bars = [{
           position = "top";
           command = "swaybar";
-          statusCommand = "while $HOME/.dotfiles/modules/home/sway/bar.sh; do sleep 1; done";
+          statusCommand = "while $HOME/nixos/modules/home/sway/bar.sh; do sleep 1; done";
         }];
       };
     };
