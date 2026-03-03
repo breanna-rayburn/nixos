@@ -3,7 +3,7 @@
 {
   imports = [
     ./vimtex.nix
-    ./lspconfig.nix
+    ./lsp.nix
     ./telescope.nix
   ];
 }
