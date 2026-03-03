@@ -64,7 +64,7 @@ in {
           "XF86MonBrightnessDown" = "exec brightnessctl s 10%-";
         
           "Print" = "exec grim - | tee ~/media/screenshots/screenshot-$(date +%Y%m%d-%H%M%S).png | wl-copy";
-          "XF86SelectiveScreenshot" = "exec slurp | grim -g - | tee ~/media/screenshots/screenshot-$(date +%Y%m%d-%H%M%S).png | wl-copy";
+          "XF86SelectiveScreenshot" = "exec slurp | grim -g - - | tee ~/media/screenshots/screenshot-$(date +%Y%m%d-%H%M%S).png | wl-copy";
         };
         input = {
           "type:touchpad" = {
