@@ -12,7 +12,8 @@
         BROWSER = "librewolf";
         EDITOR = "nvim";
 
-        XDG_DOWNLOADS_DIR = "$HOME/downloads/";
+        XDG_DOWNLOAD_DIR = "$HOME/downloads";
+        DOWNLOADS = "$HOME/downloads";
       };
 
       shellAliases = {
