@@ -74,6 +74,10 @@ in {
             middle_emulation = "enabled";
           };
         };
+        window =  {
+          titlebar = false;
+        };
+        gaps.smartBorders = "on";
         bars = [{
           position = "top";
           command = "swaybar";
