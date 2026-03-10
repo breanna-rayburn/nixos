@@ -10,7 +10,7 @@
     ./nvim
     ./git.nix
     ./sway
-    ./foot.nix
+    ./foot
     ./etc.nix
   ];
 
